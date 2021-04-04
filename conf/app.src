@@ -1,7 +1,7 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://grammalecte.net/grammalecte/zip/Grammalecte-fr-v2.1.1.zip
+SOURCE_SUM=f643eca603652469947d9bd85fb0ec08f8eb0f7b6ab925d2fb18bfc6fdd8d21c
 SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=true
-SOURCE_FILENAME=
+SOURCE_FORMAT=zip
+SOURCE_IN_SUBDIR=false
+SOURCE_FILENAME=Grammalecte-fr-v2.1.1.zip
 SOURCE_EXTRACT=true

@@ -1,63 +1,46 @@
-# App exemple pour YunoHost
+# Serveur Grammalecte pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/REPLACEBYYOURAPP.svg)](https://dash.yunohost.org/appci/app/REPLACEBYYOURAPP) ![](https://ci-apps.yunohost.org/ci/badges/REPLACEBYYOURAPP.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/REPLACEBYYOURAPP.maintain.svg)  
-[![Installer REPLACEBYYOURAPP avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=REPLACEBYYOURAPP)
+[![Niveau d'intégration](https://dash.yunohost.org/integration/grammalecte.svg)](https://dash.yunohost.org/appci/app/grammalecte) ![](https://ci-apps.yunohost.org/ci/badges/grammalecte.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/grammalecte.maintain.svg)  
+[![Installer grammalecte avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=grammalecte)
 
 *[Read this readme in english.](./README.md)* 
 
-> *Ce package vous permet d'installer REPLACEBYYOURAPP rapidement et simplement sur un serveur YunoHost.  
+> *Ce package vous permet d'installer Grammalecte rapidement et simplement sur un serveur YunoHost.  
 Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install) pour apprendre comment l'installer.*
 
 ## Vue d'ensemble
-Description rapide de cette application.
+Grammalecte est un correctuer ortographique, grammatical, et typographique pour le Français et l'Occitan. Ce paquet installe la version serveur, qui fournit une API que d'autres programmes (comme LanguageTool par exemple) peuvent utilizer.
 
-**Version incluse :** 1.0
+**Version incluse :** 2.1.1
 
 ## Captures d'écran
 
-![](Lien vers une capture d'écran de cette application.)
+![](https://grammalecte.net/grammalecte/img/screenshots/lo-correcteur1.png)
 
-## Démo
-
-* [Démo officielle](Lien vers un site de démonstration de cette application.)
+![](https://grammalecte.net/grammalecte/img/screenshots/lo-correcteur2.png)
 
 ## Configuration
 
-Comment configurer cette application : via le panneau d'administration, un fichier brut en SSH ou tout autre moyen.
+Le serveur Grammalecte peut etre configuré en changeant les options de ligne command du service `systemd` `grammalecte.service`.
 
 ## Documentation
 
- * Documentation officielle : Lien vers la documentation officielle de cette application.
- * Documentation YunoHost : Si une documentation spécifique est nécessaire, n'hésitez pas à contribuer.
-
-## Caractéristiques spécifiques YunoHost
+ * Documentation officielle : https://grammalecte.net/
 
 #### Support multi-utilisateur
 
-* L'authentification LDAP et HTTP est-elle prise en charge ?
-* L'application peut-elle être utilisée par plusieurs utilisateurs ?
+S/O
 
 #### Architectures supportées
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/REPLACEBYYOURAPP.svg)](https://ci-apps.yunohost.org/ci/apps/REPLACEBYYOURAPP/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/REPLACEBYYOURAPP.svg)](https://ci-apps-arm.yunohost.org/ci/apps/REPLACEBYYOURAPP/)
-
-## Limitations
-
-* Limitations connues.
-
-## Informations additionnelles
-
-* Autres informations que vous souhaitez ajouter sur cette application.
-
-**Plus d'informations sur la page de documentation :**  
-https://yunohost.org/packaging_apps
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/grammalecte.svg)](https://ci-apps.yunohost.org/ci/apps/grammalecte/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/grammalecte.svg)](https://ci-apps-arm.yunohost.org/ci/apps/grammalecte/)
 
 ## Liens
 
- * Signaler un bug : https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/issues
- * Site de l'application : Lien vers le site officiel de cette application.
- * Dépôt de l'application principale : Lien vers le dépôt officiel de l'application principale.
+ * Signaler un bug : https://github.com/YunoHost-Apps/grammalecte_ynh/issues
+ * Site de l'application : https://grammalecte.net/
+ * Dépôt de l'application principale : http://code.grammalecte.net:8080/
  * Site web YunoHost : https://yunohost.org/
 
 ---
@@ -65,11 +48,11 @@ https://yunohost.org/packaging_apps
 ## Informations pour les développeurs
 
 **Seulement si vous voulez utiliser une branche de test pour le codage, au lieu de fusionner directement dans la banche principale.**
-Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/grammalecte_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/grammalecte_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade REPLACEBYYOURAPP -u https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/tree/testing --debug
+sudo yunohost app upgrade grammalecte -u https://github.com/YunoHost-Apps/grammalecte_ynh/tree/testing --debug
 ```

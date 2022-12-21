@@ -15,7 +15,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Correcteur grammatical et typographique pour le Français et l'Occitan (API)
+Grammalecte is a spelling, grammar and typography checking service that supports French and Occitan. This package installs the server version, that provides an API for use by other programs (like LanguageTool).
 
 **Version incluse :** 2.1.1~ynh2
 

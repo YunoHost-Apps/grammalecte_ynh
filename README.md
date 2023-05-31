@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Grammalecte server for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/grammalecte.svg)](https://dash.yunohost.org/appci/app/grammalecte) ![Working status](https://ci-apps.yunohost.org/ci/badges/grammalecte.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/grammalecte.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/grammalecte.svg)](https://dash.yunohost.org/appci/app/grammalecte) ![Working status](https://ci-apps.yunohost.org/ci/badges/grammalecte.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/grammalecte.maintain.svg)
+
 [![Install Grammalecte server with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=grammalecte)
 
 *[Lire ce readme en français.](./README_fr.md)*

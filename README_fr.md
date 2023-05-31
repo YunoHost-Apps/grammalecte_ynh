@@ -5,23 +5,24 @@ It shall NOT be edited by hand.
 
 # Grammalecte server pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/grammalecte.svg)](https://dash.yunohost.org/appci/app/grammalecte) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/grammalecte.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/grammalecte.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/grammalecte.svg)](https://dash.yunohost.org/appci/app/grammalecte) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/grammalecte.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/grammalecte.maintain.svg)
+
 [![Installer Grammalecte server avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=grammalecte)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Grammalecte server rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Grammalecte server rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Grammalecte is a spelling, grammar and typography checking service that supports French and Occitan. This package installs the server version, that provides an API for use by other programs (like LanguageTool).
 
 **Version incluse :** 2.1.1~ynh2
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Grammalecte server](./doc/screenshots/screenshot.png)
+![Capture d’écran de Grammalecte server](./doc/screenshots/screenshot.png)
 
 ## Avertissements / informations importantes
 
@@ -31,8 +32,8 @@ The Grammalecte server can be configured by changing the command-line options of
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://grammalecte.net>
-* Dépôt de code officiel de l'app : <http://code.grammalecte.net:8080/>
+* Site officiel de l’app : <https://grammalecte.net>
+* Dépôt de code officiel de l’app : <http://code.grammalecte.net:8080/>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_grammalecte>
 * Signaler un bug : <https://github.com/YunoHost-Apps/grammalecte_ynh/issues>
 
@@ -48,4 +49,4 @@ ou
 sudo yunohost app upgrade grammalecte -u https://github.com/YunoHost-Apps/grammalecte_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>

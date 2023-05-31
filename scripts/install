@@ -10,13 +10,6 @@ source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
-# INSTALL DEPENDENCIES
-#=================================================
-#REMOVEME? ynh_script_progression --message="Installing dependencies..." --weight=1
-
-#REMOVEME? ynh_install_app_dependencies $pkg_dependencies
-
-#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression --message="Setting up source files..." --weight=1

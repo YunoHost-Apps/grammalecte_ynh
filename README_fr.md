@@ -24,12 +24,6 @@ Grammalecte is a spelling, grammar and typography checking service that supports
 
 ![Capture d’écran de Grammalecte server](./doc/screenshots/screenshot.png)
 
-## Avertissements / informations importantes
-
-## Configuration
-
-The Grammalecte server can be configured by changing the command-line options of the `systemd` service `grammalecte.service`.
-
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://grammalecte.net>

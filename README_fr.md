@@ -34,7 +34,7 @@ The Grammalecte server can be configured by changing the command-line options of
 
 * Site officiel de l’app : <https://grammalecte.net>
 * Dépôt de code officiel de l’app : <http://code.grammalecte.net:8080/>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_grammalecte>
+* YunoHost Store: <https://apps.yunohost.org/app/grammalecte>
 * Signaler un bug : <https://github.com/YunoHost-Apps/grammalecte_ynh/issues>
 
 ## Informations pour les développeurs

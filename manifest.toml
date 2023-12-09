@@ -15,11 +15,14 @@ website = "https://grammalecte.net"
 code = "http://code.grammalecte.net:8080/"
 
 [integration]
-yunohost = ">= 11.1.19"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
+
 ldap = false
+
 sso = true
+
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"

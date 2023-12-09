@@ -45,13 +45,13 @@ ynh_script_progression --message="Upgrading NGINX web server configuration..." -
 # Create a dedicated NGINX config
 ynh_add_nginx_config
 
-#=================================================
-# SETUP SYSTEMD
-#=================================================
-ynh_script_progression --message="Upgrading systemd configuration..." --weight=1
-
 # Create a dedicated systemd config
 ynh_add_systemd_config
+
+# Use logrotate to manage app-specific logfile(s)
+ynh_use_logrotate --non-append
+
+yunohost service add $app --description="Spelling, grammar, and typography checking server for French and Occitan" --log="/var/log/$app/$app.log"
 
 #=================================================
 # GENERIC FINALIZATION
@@ -63,21 +63,6 @@ ynh_add_systemd_config
 chown -R root:$app $install_dir
 chmod u+x $install_dir/grammalecte-server.py
 chmod -R g=u,g-w,o-rwx $install_dir
-
-#=================================================
-# SETUP LOGROTATE
-#=================================================
-ynh_script_progression --message="Upgrading logrotate configuration..." --weight=1
-
-# Use logrotate to manage app-specific logfile(s)
-ynh_use_logrotate --non-append
-
-#=================================================
-# INTEGRATE SERVICE IN YUNOHOST
-#=================================================
-ynh_script_progression --message="Integrating service in YunoHost..." --weight=1
-
-yunohost service add $app --description="Spelling, grammar, and typography checking server for French and Occitan" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE

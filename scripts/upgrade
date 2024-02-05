@@ -18,7 +18,8 @@ ynh_script_progression --message="Stopping a systemd service..." --weight=1
 
 ynh_systemd_action --service_name=$app --action="stop" --log_path="/var/log/$app/$app.log"
 
-chmod u+x "$install_dir/grammalecte-server.py"
+# Set permissions to app files
+chmod +x "$install_dir/grammalecte-server.py"
 chown -R "$app:www-data" "$install_dir"
 
 #=================================================

@@ -32,10 +32,10 @@ ram.runtime = "50M"
     full_domain = true
 
 [resources]
-        [resources.sources.main]
-        url = "https://grammalecte.net/zip/Grammalecte-fr-v2.1.1.zip"
-        sha256 = "f643eca603652469947d9bd85fb0ec08f8eb0f7b6ab925d2fb18bfc6fdd8d21c"
-        in_subdir = false
+    [resources.sources.main]
+    url = "https://grammalecte.net/zip/Grammalecte-fr-v2.1.1.zip"
+    sha256 = "f643eca603652469947d9bd85fb0ec08f8eb0f7b6ab925d2fb18bfc6fdd8d21c"
+    in_subdir = false
 
     [resources.ports]
 

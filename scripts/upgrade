@@ -18,10 +18,6 @@ ynh_script_progression --message="Stopping a systemd service..." --weight=1
 
 ynh_systemd_action --service_name=$app --action="stop" --log_path="/var/log/$app/$app.log"
 
-# Set permissions to app files
-chmod +x "$install_dir/grammalecte-server.py"
-chown -R "$app:www-data" "$install_dir"
-
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
@@ -29,6 +25,10 @@ ynh_script_progression --message="Upgrading source files..." --weight=1
 
 # Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir" --full_replace=1
+
+# Set permissions to app files
+chmod +x "$install_dir/grammalecte-server.py"
+chown -R "$app:www-data" "$install_dir"
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS

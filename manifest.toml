@@ -14,7 +14,7 @@ maintainers = ["Jules Bertholet"]
 [upstream]
 license = "GPL-3.0-only"
 website = "https://grammalecte.net"
-code = "http://code.grammalecte.net:8080/"
+code = "http://grammalecte.net:8080"
 
 [integration]
 yunohost = ">= 11.2"

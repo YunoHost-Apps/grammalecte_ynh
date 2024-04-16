@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 Grammalecte is a spelling, grammar and typography checking service that supports French and Occitan. This package installs the server version, that provides an API for use by other programs (like LanguageTool).
 
-**Version incluse :** 2.1.1~ynh2
+**Version incluse :** 2.1.1~ynh3
 
 ## Captures d’écran
 

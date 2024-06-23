@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Grammalecte server
+# YunoHost 上的 Grammalecte server
 
 [![集成程度](https://dash.yunohost.org/integration/grammalecte.svg)](https://dash.yunohost.org/appci/app/grammalecte) ![工作状态](https://ci-apps.yunohost.org/ci/badges/grammalecte.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/grammalecte.maintain.svg)
 

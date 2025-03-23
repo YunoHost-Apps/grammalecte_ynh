@@ -7,7 +7,7 @@ name = "Grammalecte server"
 description.en = "Grammar and typography checker for French and Occitan (API)"
 description.fr = "Correcteur grammatical et typographique pour le Français et l'Occitan (API)"
 
-version = "2.1.1~ynh3"
+version = "2.1.1~ynh4"
 
 maintainers = ["Jules Bertholet"]
 
@@ -42,14 +42,14 @@ ram.runtime = "50M"
     sha256 = "f643eca603652469947d9bd85fb0ec08f8eb0f7b6ab925d2fb18bfc6fdd8d21c"
     in_subdir = false
 
-    [resources.ports]
-
     [resources.system_user]
 
     [resources.install_dir]
 
     [resources.permissions]
     main.url = "/"
+
+    [resources.ports]
 
     [resources.apt]
     packages = "python3"

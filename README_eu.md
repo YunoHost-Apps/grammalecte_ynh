@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Grammalecte server YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/grammalecte.svg)](https://dash.yunohost.org/appci/app/grammalecte) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/grammalecte.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/grammalecte.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/grammalecte)](https://ci-apps.yunohost.org/ci/apps/grammalecte/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/grammalecte)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/grammalecte)
 
 [![Instalatu Grammalecte server YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=grammalecte)
 
@@ -18,7 +20,8 @@ EZ editatu eskuz.
 
 Grammalecte is a spelling, grammar and typography checking service that supports French and Occitan. This package installs the server version, that provides an API for use by other programs (like LanguageTool).
 
-**Paketatutako bertsioa:** 2.1.1~ynh3
+
+**Paketatutako bertsioa:** 2.1.1~ynh4
 
 ## Pantaila-argazkiak
 

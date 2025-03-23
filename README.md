@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # Grammalecte server for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/grammalecte.svg)](https://dash.yunohost.org/appci/app/grammalecte) ![Working status](https://ci-apps.yunohost.org/ci/badges/grammalecte.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/grammalecte.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/grammalecte)](https://ci-apps.yunohost.org/ci/apps/grammalecte/)
+![Working status](https://apps.yunohost.org/badge/state/grammalecte)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/grammalecte)
 
 [![Install Grammalecte server with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=grammalecte)
 
@@ -18,7 +20,8 @@ It shall NOT be edited by hand.
 
 Grammalecte is a spelling, grammar and typography checking service that supports French and Occitan. This package installs the server version, that provides an API for use by other programs (like LanguageTool).
 
-**Shipped version:** 2.1.1~ynh3
+
+**Shipped version:** 2.1.1~ynh4
 
 ## Screenshots
 

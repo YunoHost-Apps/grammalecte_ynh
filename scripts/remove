@@ -21,4 +21,5 @@ ynh_config_remove_logrotate
 #=================================================
 # END OF SCRIPT
 #=================================================
+
 ynh_script_progression "Removal of $app completed"

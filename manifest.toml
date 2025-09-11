@@ -22,7 +22,6 @@ architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = true
 
 disk = "50M"

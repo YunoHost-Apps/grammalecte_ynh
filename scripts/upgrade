@@ -20,7 +20,7 @@ ynh_setup_source --dest_dir="$install_dir" --full_replace
 
 # Set permissions to app files
 chmod +x "$install_dir/grammalecte-server.py"
-#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown -R "$app:www-data" "$install_dir"
+
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
 #=================================================

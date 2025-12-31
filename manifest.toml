@@ -7,7 +7,7 @@ name = "Grammalecte server"
 description.en = "Grammar and typography checker for French and Occitan (API)"
 description.fr = "Correcteur grammatical et typographique pour le Français et l'Occitan (API)"
 
-version = "2.1.1~ynh4"
+version = "2.3~ynh1"
 
 maintainers = ["Jules Bertholet"]
 
@@ -17,12 +17,12 @@ website = "https://grammalecte.net"
 code = "http://grammalecte.net:8080"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.18"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = true
 
 disk = "50M"
@@ -38,13 +38,14 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://grammalecte.net/zip/Grammalecte-fr-v2.1.1.zip"
-    sha256 = "f643eca603652469947d9bd85fb0ec08f8eb0f7b6ab925d2fb18bfc6fdd8d21c"
+    url = "https://www.grammalecte.net/zip/Grammalecte-fr-v2.3.0.zip"
+    sha256 = "aaa4219704857778038ecc1db18f6a907994c0125b8e762dcecc69130280684f"
     in_subdir = false
 
     [resources.system_user]
 
     [resources.install_dir]
+    group = "www-data:r-x"
 
     [resources.permissions]
     main.url = "/"

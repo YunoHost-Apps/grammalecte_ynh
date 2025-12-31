@@ -13,6 +13,8 @@ ynh_setup_source --dest_dir="$install_dir"
 # Set permissions to app files
 chmod +x "$install_dir/grammalecte-server.py"
 
+chown $app:www-data "$install_dir"
+
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================

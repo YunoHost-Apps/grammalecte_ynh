@@ -1,0 +1,1 @@
+Grammalecte est un service de correction orthographique, grammaticale et typographique pour le Français et l'Occitan. Ce paquet installe la version serveur, qui fournit une API utilisable par d'autres programmes (comme LanguageTool).
